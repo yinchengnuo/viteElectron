@@ -1,0 +1,33 @@
+.view-login-enter-active,
+.view-login-leave-active {
+    transition: all 0.1s;
+}
+
+.view-login-enter-from {
+    transform: translateY(100%);
+}
+.view-login-leave-to {
+    transform: translateY(-100%);
+}
+
+.view-logout-enter-active,
+.view-logout-leave-active {
+    transition: all 0.1s;
+}
+
+.view-logout-enter-from {
+    transform: translateY(-100%);
+}
+.view-logout-leave-to {
+    transform: translateY(100%);
+}
+
+.view-enter-active,
+.view-leave-active {
+    transition: all 0.1s;
+}
+
+.view-enter-from,
+.view-leave-to {
+    opacity: 0;
+}

@@ -1,0 +1,96 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex1 {
+    flex: 1;
+}
+.w100 {
+    width: 100% !important;
+}
+.h100 {
+    height: 100% !important;
+}
+.flex_fs {
+    justify-content: flex-start;
+}
+.flex_fe {
+    justify-content: flex-end;
+}
+.flex_sb {
+    justify-content: space-between;
+}
+.flex_sa {
+    justify-content: space-around;
+}
+.flex_se {
+    justify-content: space-evenly;
+}
+.flex_c_fs {
+    align-items: flex-start;
+}
+.flex_c_fe {
+    align-items: flex-end;
+}
+.flex_c_sb {
+    align-items: space-between;
+}
+.flex_c_sa {
+    align-items: space-around;
+}
+.flex_c_se {
+    align-items: space-evenly;
+}
+
+.m0 {
+    margin: 0 !important;
+}
+
+.ml8 {
+    margin-left: 8px !important;
+}
+
+.mr8 {
+    margin-right: 8px !important;
+}
+
+.mt8 {
+    margin-top: 8px !important;
+}
+
+.mb8 {
+    margin-bottom: 8px !important;
+}
+
+.ml4 {
+    margin-left: 4px !important;
+}
+
+.mr4 {
+    margin-right: 4px !important;
+}
+
+.m04 {
+    margin: 0 4px !important;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.oh {
+    overflow: hidden !important;
+}
+
+.pointer {
+    cursor: pointer;
+}

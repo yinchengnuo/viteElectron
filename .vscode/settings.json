@@ -1,0 +1,17 @@
+{
+    "editor.tabSize": 4, // 代码缩进 4 个空格
+    "editor.formatOnSave": true, // 保存格式化
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint", // 使用 prettier-eslint 做代码格式化
+    "[vue]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
